@@ -22,9 +22,9 @@ h6 {
 }
 .navbar-default {
   background-color: #2A2A2A;
-  border-color: #F8F8F8;
+  border-color: #999999;
 }
-.navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a {
   color: #F8F8F8;
 }
 .navbar-brand {
