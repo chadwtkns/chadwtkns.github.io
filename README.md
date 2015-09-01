@@ -5,8 +5,12 @@
 
 ### Companies I have worked For
 
-doterra - CHECK
-infiniti creations - 
-sarahs cello studio - CHECK
-educate and empower kids -
-beit lehi foundation - CHECK
+doTERRA
+
+Infiniti Creations
+
+Sarah's Cello Studio
+
+Educate and Empower Kids
+
+Beit Lehi Foundation
