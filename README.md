@@ -1,14 +1,12 @@
 # chadwtkns.github.io
 
 
-### Technologies I want to try
+### Welcome to my Portfolio
 
-+ SASS
-+ Gulp
-+ Snap SVG
-+ Modernizr
-+ CoffeeScript
-+ D3
-+ .htaccess
-+ Go
-+ React
+### Companies I have worked For
+
+doterra - CHECK
+infiniti creations - 
+sarahs cello studio - CHECK
+educate and empower kids -
+beit lehi foundation - CHECK
