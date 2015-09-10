@@ -22,7 +22,7 @@ h6 {
 }
 .navbar-default {
   background-color: #2A2A2A;
-  border-color: #999999;
+  border-color: #2A2A2A;
 }
 .navbar-default .navbar-nav>li>a {
   color: #F8F8F8;
@@ -45,7 +45,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/stars.jpg) no-repeat center center;
+    background: url(../img/chadwtkns_background_2-01.svg) no-repeat center center;
     background-size: cover;
 }
 
