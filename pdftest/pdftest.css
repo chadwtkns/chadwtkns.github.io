@@ -1,3 +1,9 @@
 .hidePlease {
   display: none;
 }
+.blue {
+  color: blue;
+}
+img {
+  float: left;
+}
