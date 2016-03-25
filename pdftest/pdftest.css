@@ -1,9 +1,5 @@
-.green {
-  color: green;
-}
-img {
-  float: left;
-}
+@import "nonPrint.css";
+
 @media print {
   @page :left {
     margin: 0.5in;
