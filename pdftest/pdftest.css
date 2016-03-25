@@ -1,11 +1,20 @@
-.hidePlease {
-  display: none;
-}
-.blue {
-  color: blue;
+.green {
+  color: green;
 }
 img {
-    page-break-before: auto;
-    page-break-after: auto;
-    page-break-inside: avoid;
+  float: left;
+}
+@media print {
+  .hidePlease {
+    display: none;
+  }
+  .blue {
+    color: blue;
+  }
+  img {
+      float: left;
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+  }
 }
