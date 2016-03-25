@@ -5,5 +5,7 @@
   color: blue;
 }
 img {
-  float: left;
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid;
 }
