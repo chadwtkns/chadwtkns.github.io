@@ -1,11 +1,21 @@
 $(document).ready(function(){
   function createCORSRequest(method, url) {
     var xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
     if ("withCredentials" in xhr) {
 
       // Check if the XMLHttpRequest object has a "withCredentials" property.
       // "withCredentials" only exists on XMLHTTPRequest2 objects.
       xhr.open(method, url, true);
+      xhr.onload = function() {
+       var responseText = xhr.responseText;
+       console.log(responseText);
+       // process the response.
+      };
+
+      xhr.onerror = function() {
+        console.log('There was an error!');
+      };
 
     } else if (typeof XDomainRequest != "undefined") {
 
@@ -18,7 +28,15 @@ $(document).ready(function(){
 
       // Otherwise, CORS is not supported by the browser.
       xhr = null;
+      xhr.onload = function() {
+       var responseText = xhr.responseText;
+       console.log(responseText);
+       // process the response.
+      };
 
+      xhr.onerror = function() {
+        console.log('There was an error!');
+      };
     }
     return xhr;
   }
