@@ -1,6 +1,6 @@
 $(document).ready(function(){
   // Create the XHR object.
-$( "#pdftest" ).click();
+$( "#pdftest" )[0].click();
   // $( "#pdftest" ).click(function() {
   //   // makeCorsRequest();
   //   // $.ajax({
