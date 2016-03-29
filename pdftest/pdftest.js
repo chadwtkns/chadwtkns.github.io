@@ -6,7 +6,10 @@ $(document).ready(function(){
     $.ajax({
          url: "https://pdfcrowd.com/url_to_pdf/?height=11in&use_print_media=1",
          type: "GET",
-         success: function() { console.log('Success!'); }
+         complete: function(jqXhr,status) {
+           console.log(jqXhr);
+           console.log("Status " + status);
+         }
       });
   });
 });
