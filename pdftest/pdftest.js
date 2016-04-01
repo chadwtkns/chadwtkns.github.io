@@ -1,8 +1,8 @@
 $(document).ready(function(){
   // Create the XHR object.
-$( "#pdftest" )[0].click(function () {
-  console.log("something");
-});
+// $( "#pdftest" )[0].click(function () {
+//   console.log("something");
+// });
   // $( "#pdftest" ).click(function() {
   //   // makeCorsRequest();
   //   // $.ajax({
