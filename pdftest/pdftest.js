@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  var href;
+  var href = [];
   $(".testLinks").each(function () {
       href += $(this).attr("href");
   });
