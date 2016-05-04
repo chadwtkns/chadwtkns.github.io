@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  var href = [];
+  var href;
   function appendDataFun (data) {
      $(".onlyPrint").append(data);
    }
   $(".testLinks").each(function () {
-      href.push = [];
+      href = [];
       href = href.push($(this).attr("href"));
   });
   for (var i = 0; i < href.length; i++) {
