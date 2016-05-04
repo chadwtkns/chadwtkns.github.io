@@ -4,7 +4,7 @@ $(document).ready(function() {
      $(".onlyPrint").append(data);
    }
   $(".testLinks").each(function () {
-    console.log(typeof href);
+      href.push = [];
       href = href.push($(this).attr("href"));
   });
   for (var i = 0; i < href.length; i++) {
