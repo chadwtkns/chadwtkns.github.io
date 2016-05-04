@@ -4,3 +4,6 @@
 img {
   float: left;
 }
+.onlyPrint{
+  display: none;
+}
