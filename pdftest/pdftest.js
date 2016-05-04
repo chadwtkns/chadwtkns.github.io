@@ -1,10 +1,9 @@
 $( document ).ready(function() {
+  var href;
   $(".testLinks").each(function () {
-     var href = $(this).attr("href");
-    $.get(href, function (data) {
-      $(".onlyPrint").append(data);
-    });
+      href = $(this).attr("href");
   });
-
-
+  $.get(href, function (data) {
+    $(".onlyPrint").append(data);
+  });
 });
