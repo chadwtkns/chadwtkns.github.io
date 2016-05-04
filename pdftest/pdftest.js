@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
   // Create the XHR object.
 // $( "#pdftest" )[0].click(function () {
 //   console.log("something");
@@ -19,4 +19,8 @@ $(document).ready(function(){
   //   //      }
   //   //   });
   // });
+});
+
+$( document ).ready(function() {
+    $(".green").append("Some appended text.");
 });
