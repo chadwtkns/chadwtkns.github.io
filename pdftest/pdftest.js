@@ -12,6 +12,6 @@ $(document).ready(function() {
   });
 
   for (var i = 0; i < href.length; i++) {
-    $("#pdftest").click().get(href[i], getCallBack);
+    $.get(href[i], getCallBack);
   }
 });
