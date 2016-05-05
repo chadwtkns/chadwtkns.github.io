@@ -5,8 +5,9 @@ $(document).ready(function() {
    }
   $(".testLinks").each(function () {
       href = [];
-      href = href.push($(this).attr("href"));
+      var something = href.push($(this).attr("href"));
   });
+  console.log(something);
   for (var i = 0; i < href.length; i++) {
     $.get(href[i], appendDataFun(data));
   }
