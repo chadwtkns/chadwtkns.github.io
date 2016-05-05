@@ -1,8 +1,9 @@
 $(document).ready(function() {
-  var href,something;
+  var href = [];
+  var something;
   $(".testLinks").each(function () {
-      href = [];
       something = $(this).attr("href");
+      href.push(something);
   });
   console.log(something);
   // for (var i = 0; i < href.length; i++) {
