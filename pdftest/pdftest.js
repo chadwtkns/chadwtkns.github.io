@@ -25,7 +25,7 @@ $(document).ready(function() {
 			$(".visible-print-block").load(href[i] + " #printDiv");
 		}
 	});
-	// CallPDFCrowd();
+	CallPDFCrowd();
   }
   function CallPDFCrowd () {
   	document.getElementById('listTopicPDFCrowd').click();
