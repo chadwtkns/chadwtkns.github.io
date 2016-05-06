@@ -22,10 +22,10 @@ $(document).ready(function() {
 		var testIdea = $('<div class="visible-print-block"></div>');
 		$("#onlyPrint").append(testIdea);
 		for (var i = 0; i < href.length; i++) {
-			$(".visible-print-block").load(href[i] + " #qa-page");
+			$(".visible-print-block").load(href[i] + " #printDiv");
 		}
 	});
-	CallPDFCrowd();
+	// CallPDFCrowd();
   }
   function CallPDFCrowd () {
   	document.getElementById('listTopicPDFCrowd').click();
