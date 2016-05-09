@@ -2,6 +2,7 @@ $(document).ready(function() {
   var href = [];
 
   function getCallBack(data) {
+    var thing = $(data).find('#printDiv')[0].innerHTML;
     $(".onlyPrint").append(data);
   }
 
